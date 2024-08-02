@@ -1,5 +1,47 @@
-h1 {
-
-    text-align: center;
-    
+body {
+    /* you can change the background color by not specifying a text in the selector */
+    background-color: rgb(228, 16, 16);
+    font-family: Helvetica;
 }
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+
+}
+
+/* adding height to this element meant that the element below it got pushed down */
+#links {
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+
+/* no need to add height here because it would push the button lower  */
+.center-text {
+    text-align: center;
+}
+
+/* allows button to be moved */
+.container {
+    height: 200px;
+    position: relative;
+}
+
+/* centers object vertically and horizontally */
+/* need to research why both ms and normal transform are both needed */
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#flag {
+   
+    height: auto;
+    width: 200px;
+}
+
