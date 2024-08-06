@@ -10,6 +10,11 @@ h1 {
 
 }
 
+testDate {
+    text-align: center;
+    color: white;
+}
+
 /* adding height to this element meant that the element below it got pushed down */
 #links {
     font-size: 30px;
